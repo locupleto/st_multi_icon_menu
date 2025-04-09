@@ -14,6 +14,9 @@ setuptools.setup(
     url="https://github.com/locupleto/st_multi_icon_menu",
     packages=setuptools.find_packages(),
     include_package_data=True,
+    package_data={
+        "st_multi_icon_menu": ["frontend/build/**/*"],
+    },
     classifiers=[],
     python_requires=">=3.6",
     install_requires=[
